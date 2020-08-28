@@ -19,11 +19,10 @@
 |  | large | 12$
 |  2. Program will Have the user pick a type of sauce | red sauce | base price of size
 |  | white sauce | base price + 1$
-|  Program will Have the user pick toppings        | 0 toppings/comes with cheese | base price + 0$ 
-|  Program will Have the user pick toppings        | 0 toppings/comes with cheese | base price + 0$ 
+|  3. Program will Have the user pick toppings        | 0 toppings/comes with cheese | base price + 0$ 
 |  | 1 topping | base price + 1$
 |  | 2 topping | base price + 2$
-|  The program will have a button to order and will alert the customer their order is being prepaird and ready for pickup within 15min.
+|  4. The program will have a button to order and will alert the customer their order is being prepaird and ready for pickup within 15min.
 
 
 ## Setup/Installation Requirements
