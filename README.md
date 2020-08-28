@@ -17,7 +17,7 @@
 |  1. Program will Have the user pick a size of pizza | small | 8$
 |  | medium | 10$
 |  | large | 12$
-|  2. |  Program will Have the user pick a type of sauce | red sauce | base price of size
+|  2. Program will Have the user pick a type of sauce | red sauce | base price of size
 |  | white sauce | base price + 1$
 |  Program will Have the user pick toppings        | 0 toppings/comes with cheese | base price + 0$ 
 |  Program will Have the user pick toppings        | 0 toppings/comes with cheese | base price + 0$ 
