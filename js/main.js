@@ -49,6 +49,11 @@ $(document).ready(function() {
     const newPizza = new Pizza(size, sauce, toppings);
     newPizza.addPrice();
     
+    $("#receipt-size").text(size);
+    $("#receipt-sauce").text(sauce);
+    $("#receipt-toppings").text(newPizza.toppings);
+    $("#card").show();
+    $("#receipt-title").show();
     
   });
 });

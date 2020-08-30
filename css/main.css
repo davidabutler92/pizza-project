@@ -59,4 +59,12 @@ body {
   padding: 10px;
 }
 
+#receipt-title {
+  color: white;
+  display: none;
+}
+
+#card {
+  display: none;
+}
 
