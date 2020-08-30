@@ -1,3 +1,38 @@
 #customize-pizza-form {
-  display: none;
+  /* display: none; */
+  text-align: center;
+  vertical-align: middle;
 }
+
+#order-now {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#title-jumbotron {
+  margin-top: 5%;
+  background: none;
+}
+
+#small-title-text {
+  color: white;
+}
+
+#title-container {
+  color: white;
+}
+
+body {
+  background-image: url("");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+
