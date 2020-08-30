@@ -18,7 +18,7 @@
 |  | medium | 10$
 |  | large | 12$
 |  2. Program will Have the user pick a type of sauce | red sauce | base price of size
-|  | white sauce | base price + 1$
+|  | white sauce | base price of size
 |  3. Program will Have the user pick toppings        | 0 toppings/comes with cheese | base price + 0$ 
 |  | 1 topping | base price + 1$
 |  | 2 topping | base price + 2$
