@@ -1,3 +1,8 @@
+const Pizza = function(size, sauce, toppings) {
+  this.size = size;
+  this.sauce = sauce;
+  this.toppings = toppings;
+}
 //UI logic 
 $(document).ready(function() {
   $("#order-now").click(event => {
@@ -10,6 +15,7 @@ $(document).ready(function() {
     
     const size = $("#pizza-size").val();
     const sauce = $("#pizza-sauce").val();
-    console.log(sauce);
+    const checkboxNodes = $("#checkbox-wrapper").children("input");
+    
   });
 });
