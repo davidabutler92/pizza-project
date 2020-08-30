@@ -30,6 +30,7 @@ $(document).ready(function() {
     const size = $("#pizza-size").val();
     const sauce = $("#pizza-sauce").val();
     const checkboxNodes = $("#checkbox-wrapper").children("input");
+    toppings = findToppings(checkboxNodes);
     
     const newPizza = new Pizza(size, sauce, toppings);
     
