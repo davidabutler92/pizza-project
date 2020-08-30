@@ -47,6 +47,8 @@ $(document).ready(function() {
     const toppings = findToppings(checkboxNodes);
     
     const newPizza = new Pizza(size, sauce, toppings);
+    newPizza.addPrice();
+    console.log(newPizza.price);
     
   });
 });
