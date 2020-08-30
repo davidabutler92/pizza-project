@@ -21,7 +21,10 @@ function findToppings(checkboxNodes) {
 Pizza.prototype.addPrice = function() {
   if(this.size === "medium") {
     this.price =+2;
-  
+  } else if (this.size === "large") {
+    this.price =+ 4;
+  }
+}
 
 //UI logic 
 $(document).ready(function() {
