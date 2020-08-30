@@ -47,6 +47,16 @@ body {
   text-align: center;
 }
 
-
+#card {
+  width: 250px;
+  height: 400px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  margin: auto;
+  border: 6px solid #c24848;
+  padding: 10px;
+}
 
 

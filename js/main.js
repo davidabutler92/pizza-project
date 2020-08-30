@@ -48,7 +48,7 @@ $(document).ready(function() {
     
     const newPizza = new Pizza(size, sauce, toppings);
     newPizza.addPrice();
-    console.log(newPizza.price);
+    
     
   });
 });
