@@ -1,3 +1,4 @@
+//Business logic
 const Pizza = function(size, sauce, toppings) {
   this.size = size;
   this.sauce = sauce;
@@ -24,6 +25,7 @@ Pizza.prototype.addPrice = function() {
   } else if (this.size === "large") {
     this.price =+ 4;
   }
+  this.price =+ (this.pricePerTopping * this.toppings.length);
 }
 
 //UI logic 
