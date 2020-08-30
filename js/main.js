@@ -5,6 +5,18 @@ const Pizza = function(size, sauce, toppings) {
   this.price = 8;
   this.pricePerTopping = 1;
 }
+
+function getToppings(checkboxNodes) {
+  const toppings = [];
+  for(let i = 0; i <checkboxNodes.length; i++) {
+    const value = checkboxNodes[i].value;
+    const check = checkboxNodes[i].checked;
+    if(checked) {
+      toppings.push(value);
+    }
+  }
+  return toppings;
+}
 //UI logic 
 $(document).ready(function() {
   $("#order-now").click(event => {
@@ -20,6 +32,6 @@ $(document).ready(function() {
     const checkboxNodes = $("#checkbox-wrapper").children("input");
     
     const newPizza = new Pizza(size, sauce, toppings);
-    console.log(newPizza);
+    
   });
 });
