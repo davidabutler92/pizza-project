@@ -1,13 +1,15 @@
 #customize-pizza-form {
-  /* display: none; */
+  display: none;
   text-align: center;
   vertical-align: middle;
+  text-decoration-color: honeydew;
+  .sg-input-menu {background-color:black;}
 }
 
 #order-now {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -16,10 +18,19 @@
 #title-jumbotron {
   margin-top: 5%;
   background: none;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#form-jumbotron {
+  background: none;
 }
 
 #small-title-text {
-  color: white;
+  color:white;
 }
 
 #title-container {
@@ -27,12 +38,14 @@
 }
 
 body {
-  background-image: url("");
+  background-image: url("https://bit.ly/3hIUBdo");
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
 }
+
+
 
 

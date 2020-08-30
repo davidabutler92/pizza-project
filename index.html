@@ -22,38 +22,40 @@
       </form>
     </div>
     <div class="container">
-      <form id="customize-pizza-form">
-        <h2>Customize pizza:</h2>
-        <div>
-          <label for="pizza-size">Select size:</label>
-          <select name="pizza-size" id="pizza-size">
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-          </select>
-        </div>
-        <div>
-          <label for="pizza-sauce">Select sauce:</label>
-          <select name="pizza-sauce" id="pizza-sauce">
-            <option value="red">Red</option>
-            <option value="white">White</option>
-          </select>
-        </div>
-        <div>
-          <h3>Select toppings:</h3>
-          <div id="checkbox-wrapper">
-            <input type="checkbox" id="topping1" name="topping1" value="pepperoni">
-            <label for="topping1"> Pepperoni</label><br>
-            <input type="checkbox" id="topping2" name="topping2" value="sausage">
-            <label for="topping2"> Sausage</label><br>
-            <input type="checkbox" id="topping3" name="topping3" value="olives">
-            <label for="topping3"> Olives</label><br>
-            <input type="checkbox" id="topping3" name="topping4" value="spinach">
-            <label for="topping4"> Spinach</label><br>
+      <div class="jumbotron" id="form-jumbotron">
+        <form id="customize-pizza-form">
+          <h2>Customize pizza:</h2>
+          <div>
+            <label for="pizza-size">Select size:</label>
+            <select name="pizza-size" id="pizza-size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
           </div>
-        </div>
-        <button type="submit" class="btn btn-danger" id="place-order-button">PLACE ORDER</button>
-      </form>
+          <div>
+            <label for="pizza-sauce">Select sauce:</label>
+            <select name="pizza-sauce" id="pizza-sauce">
+              <option value="red">Red</option>
+              <option value="white">White</option>
+            </select>
+          </div>
+          <div>
+            <h3>Select toppings:</h3>
+            <div id="checkbox-wrapper">
+              <input type="checkbox" id="topping1" name="topping1" value="pepperoni">
+              <label for="topping1"> Pepperoni</label><br>
+              <input type="checkbox" id="topping2" name="topping2" value="sausage">
+              <label for="topping2"> Sausage</label><br>
+              <input type="checkbox" id="topping3" name="topping3" value="olives">
+              <label for="topping3"> Olives</label><br>
+              <input type="checkbox" id="topping3" name="topping4" value="spinach">
+              <label for="topping4"> Spinach</label><br>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-danger" id="place-order-button">PLACE ORDER</button>
+        </form>
+      </div>
     </div>
     </div>
   </body>

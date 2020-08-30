@@ -22,6 +22,8 @@ $(document).ready(function() {
   $("#order-now").click(event => {
     event.preventDefault();
     $("#customize-pizza-form").show();
+    $("#title-container").hide();
+    $("form#start-order").hide();
   });
 
   $("#place-order-button").click(event => {
