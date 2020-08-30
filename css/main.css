@@ -65,6 +65,7 @@ body {
 }
 
 #card {
-  display: none;
+  /* display: none; */
+  margin-top: 5%;
 }
 

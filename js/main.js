@@ -52,8 +52,8 @@ $(document).ready(function() {
     $("#receipt-size").text(size);
     $("#receipt-sauce").text(sauce);
     $("#receipt-toppings").text(newPizza.toppings);
+    $("#receipt-toppings").text("$" + newPizza.price);
     $("#card").show();
     $("#receipt-title").show();
-    
   });
 });
