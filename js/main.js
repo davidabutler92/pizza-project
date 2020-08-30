@@ -17,6 +17,9 @@ function findToppings(checkboxNodes) {
   }
   return toppings;
 }
+
+
+
 //UI logic 
 $(document).ready(function() {
   $("#order-now").click(event => {
@@ -28,12 +31,12 @@ $(document).ready(function() {
 
   $("#place-order-button").click(event => {
     event.preventDefault();
+    $("#customize-pizza-form").hide();
     
     const size = $("#pizza-size").val();
     const sauce = $("#pizza-sauce").val();
     const checkboxNodes = $("#checkbox-wrapper").children("input");
-    toppings = findToppings(checkboxNodes);
-    console.log(toppings);
+    const toppings = findToppings(checkboxNodes);
     
     const newPizza = new Pizza(size, sauce, toppings);
     
