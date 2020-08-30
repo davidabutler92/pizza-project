@@ -19,5 +19,7 @@ $(document).ready(function() {
     const sauce = $("#pizza-sauce").val();
     const checkboxNodes = $("#checkbox-wrapper").children("input");
     
+    const newPizza = new Pizza(size, sauce, toppings);
+    console.log(newPizza);
   });
 });
