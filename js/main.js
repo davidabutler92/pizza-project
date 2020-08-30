@@ -2,6 +2,8 @@ const Pizza = function(size, sauce, toppings) {
   this.size = size;
   this.sauce = sauce;
   this.toppings = toppings;
+  this.price = 8;
+  this.pricePerTopping = 1;
 }
 //UI logic 
 $(document).ready(function() {
