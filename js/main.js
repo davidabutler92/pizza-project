@@ -6,11 +6,11 @@ const Pizza = function(size, sauce, toppings) {
   this.pricePerTopping = 1;
 }
 
-function getToppings(checkboxNodes) {
+function findToppings(checkboxNodes) {
   const toppings = [];
   for(let i = 0; i <checkboxNodes.length; i++) {
     const value = checkboxNodes[i].value;
-    const check = checkboxNodes[i].checked;
+    const checked = checkboxNodes[i].checked;
     if(checked) {
       toppings.push(value);
     }
@@ -31,6 +31,7 @@ $(document).ready(function() {
     const sauce = $("#pizza-sauce").val();
     const checkboxNodes = $("#checkbox-wrapper").children("input");
     toppings = findToppings(checkboxNodes);
+    console.log(toppings);
     
     const newPizza = new Pizza(size, sauce, toppings);
     
