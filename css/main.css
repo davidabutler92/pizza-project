@@ -3,7 +3,8 @@
   text-align: center;
   vertical-align: middle;
   text-decoration-color: honeydew;
-  .sg-input-menu {background-color:black;}
+  font-size: 150%;
+  font-weight: 200
 }
 
 #order-now {
@@ -48,8 +49,8 @@ body {
 }
 
 #card {
-  width: 250px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   border: 15px solid white;
   padding: 50px;
   margin: 20px;
@@ -65,7 +66,7 @@ body {
 }
 
 #card {
-  /* display: none; */
+  display: none;
   margin-top: 5%;
   font-weight: 200;
   font-size: 130%;
