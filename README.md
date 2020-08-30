@@ -22,7 +22,7 @@
 |  3. Program will Have the user pick toppings        | 0 toppings/comes with cheese | base price + 0$ 
 |  | 1 topping | base price + 1$
 |  | 2 topping | base price + 2$
-|  4. The program will have a button to order and will alert the customer their order is being prepaird and ready for pickup within 15min.
+|  4. The program will have a button to order and will text the user thank you for the order It'll be ready in 15min with a receipt
 
 
 ## Setup/Installation Requirements
