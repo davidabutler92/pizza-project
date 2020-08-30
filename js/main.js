@@ -7,8 +7,9 @@ $(document).ready(function() {
 
   $("#place-order-button").click(event => {
     event.preventDefault();
-    // console.log('CLICK ME');
-    const size = $("#pizza-size").va();
-    console.log(size);
+    
+    const size = $("#pizza-size").val();
+    const sauce = $("#pizza-sauce").val();
+    console.log(sauce);
   });
 });
